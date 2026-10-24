@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api": "https://the-chatbot-hyw6.onrender.com"
+      "/api": "https://the-chatbot-hyw6.onrender.com/api"
     }
   }
 });
